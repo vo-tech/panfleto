@@ -13,12 +13,14 @@
             color: #FFFFFF;
             margin: 0;
             padding: 0;
+            overflow-x: hidden; /* Previne o scroll horizontal */
         }
         .container {
             width: 100%;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            box-sizing: border-box; /* Inclui padding no tamanho total */
         }
         .header, .section, .footer {
             margin-bottom: 20px;
@@ -85,8 +87,8 @@
             font-size: 24px;
             text-align: center;
             z-index: 1000;
-            width: 40px; /* Define largura e altura iguais para garantir que o botão seja redondo */
-            height: 40px;
+            width: 50px; /* Ajuste a largura para mudar o tamanho do botão */
+            height: 50px; /* Ajuste a altura para mudar o tamanho do botão */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -96,8 +98,8 @@
             text-decoration: none;
         }
         .whatsapp-button img {
-            width: 26px;
-            height: 26px;
+            width: 24px; /* Ajuste a largura para mudar o tamanho do ícone */
+            height: 24px; /* Ajuste a altura para mudar o tamanho do ícone */
         }
     </style>
 </head>
